@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 3080px;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    background-color: black;
+}
+
+header>img {
+    width: 124px;
+    height: 40px;
+    margin-left: 300px;
+
+}
+.opendiscord{
+    margin-right: 300px;
+}
+
+header .center-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header .center-nav a {
+    text-decoration: none;
+    margin: 10px 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header>a {
+    text-decoration: none;
+    align-items: center;
+    color: #7289da;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 14px;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+header .Dicordopen {
+    display: none;
+}
+.first {
+display: flex;
+flex-direction: row;
+align-items: center; 
+justify-content: center; 
+margin-bottom: 100px;
+width: auto;
+height: 900px;
+background-color: black;
+}
+
+.one {
+text-align: center; 
+padding: 20px;
+margin-right: 100px; 
+}
+
+
+
+
+.first div {
+    text-align: center;
+}
+
+.first button {
+    padding: 20px 70px;
+    margin-top: 10px;
+    border: none;
+    background-color: #7289DA;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.first button:hover {
+    background-color: #5f73a1;
+}
+
+.first img {
+    width: 650px;
+    height: 500px;
+    margin-top: 20px;
+}
+.first h1{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+margin-bottom: 24px;
+font-family: "Abcgintonord 800",sans-serif;
+font-size: 4.5rem;
+font-weight: 700;
+line-height: 1;
+
+}
+.first.p{
+
+text-align: left;
+margin-bottom: 20px;
+font-family: Ggsans,sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.section {
+    height: 2200px;
+    
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); 
+gap: 70px; 
+justify-content: center; 
+}
+
+.section > div {
+text-align: center; 
+background-color: rgb(243, 237, 237);
+
+
+}
+.ios{
+width: 700px;
+height: 700px;
+z-index: 0;
+position: relative;
+
+margin-left: 260px;
+margin-top: 80px;
+border-radius: 20px;
+
+}
+.ios > img{
+width: 500px;
+height: 400px;
+}
+
+.windows{
+width: 700px;
+height: 700px;
+position: relative;
+z-index: 0;
+
+bottom:120px ;
+
+left: 260px;
+border-radius: 20px;
+
+
+}
+.Android{
+width: 700px;
+height: 700px;
+position: relative;
+top: 220px;
+border-radius: 20px;
+
+
+}
+.mac{
+width: 700px;
+position: relative;
+height: 700px;
+bottom: 1px;
+top: 20px;
+border-radius: 20px;
+
+
+
+}
+
+
+
+.section > div > h1 {
+margin-bottom: 40px;
+font-size: 2.5rem; 
+margin-top: 70px;
+}
+
+.section > div > button {
+margin-bottom: 40px;
+background-color: black;
+color: white;
+padding: 20px 70px;
+border: 20px;
+border-radius: 30px;
+margin-top: 5px;
+cursor: pointer;
+
+}
+
+.section > div > button:hover {
+background-color: #333; 
+}
+
+
+.section > div > img {
+width: 500px;
+height: 300px;
+margin-top: 50px;
+}
+.feeling{
+width: 700px;
+height: 300px;
+position: relative;
+left: 260px;
+border-radius: 20px;
+
+bottom: 210px;
+
+}
+.download{
+width: 700px;
+height: 300px;
+position: relative;
+bottom: 70px;
+border-radius: 20px;
+
+
+}
+.ios > img{
+width: 500px;
+height: 400px;
+}
+.flags{
+margin-left: 140px;
+
+margin-bottom: 10px;
+
+
+}
+.flags{
+    height: 15px;
+    width: 30px;
+}
+
+
+.container {
+    position: relative; /* Ensure it's relative to its parent */
+}
+
+
+
+.main_footer{
+    background-color: rgb(28, 27, 27);
+    padding: 50px;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly
+
+}
+
+.footer-title{
+    color:rgb(80, 80, 194) ;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.social-link{
+    font-size: 30px;
+    
+    margin-top: 60px;
+   
+}
+.icon-link{
+    color: white;
+    margin-right: 40px;
+    
+}
+.spacer{
+    display: none;
+}
+.link-grp{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.link-grp .title1{
+    font-size: 20px;
+    font-weight: 100;
+    color: blue;
+}
+.footer_link{
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.divider{
+    height: 50px;
+
+}
+hr{
+    border: 2px solid rgb(62, 62, 154);
+}
+#disc-btn{
+    height: 80px;
+    width: 120px;
+    margin-right: 1000px;
+    
+
+}
+.sign-up{
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
